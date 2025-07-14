@@ -1,5 +1,5 @@
 
-public class Triangulo {
+public class Triangulo implements FigurasGeometricas {
 	private String nombre;
 	private double base;
 	private double altura;
@@ -14,7 +14,7 @@ public class Triangulo {
 	}//constructor
 	
 	public double calcularArea() {
-		return (getBase()* getAltura())/2;
+		return (getBase() * getAltura())/2;
 	}//calcularArea
 	
 	public double calcularPerimetro() {
@@ -23,7 +23,7 @@ public class Triangulo {
 
 	public String getNombre() {
 		return nombre;
-	}
+	} 
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
