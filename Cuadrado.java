@@ -1,5 +1,6 @@
 
-public class Cuadrado {
+
+public class Cuadrado implements FigurasGeometricas {
 	private String nombre;
 	private double lado;
 	
